@@ -61,6 +61,7 @@
 
 - 本机的子 agent 默认模型曾经不可用（报 model_not_found），调用子 agent 时要显式指定 model（如 opus）。
 - volume-planner 等 agent 引用的 `skills/*.md` 不在项目里，在全局 `~/.claude/skills/awesome-novel/skills/`，派 order 时要写明路径。volume-planner 没有 `notes/` 读权限、也不能直接问作者：派单时把大纲 15 列入 inputs，写明「以大纲为准，只整理成卷纲格式，剧情缺口列问题返回」。
+- **`archives/` 只放定稿正文**（作者 2026-10-01）。writer / anti-ai / reader 按规范会把 `.draft.md` `.anti-ai.md` `.review.md` 写进 archives/，每轮流程结束后移到 `.agent/drafts/`。
 - 子 agent 只在明确需要时调用；文风蒸馏的 SOP 文件 `skills/style-distill.md` 不在项目里，蒸馏师按 `.claude/knowledge/distilled-style-spec.md` 与 `style-distill/` 模板执行。
 
 ## 七、同步
