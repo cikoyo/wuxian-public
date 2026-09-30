@@ -9,4 +9,4 @@
 - **current_chapter:**
 - **last_archived:**
 - **last_quality_gap:**        # 最近一次字数降级记录（由 novel-agent 从 writing-order 同步）
-- **next_task:** 填写基础设定（世界观/角色/写作风格）
+- **next_task:** 卷纲（汉宫争艳）——设定已写入 settings/（2026-09-30），待作者确认后进入 outline
