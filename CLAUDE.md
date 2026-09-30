@@ -12,16 +12,16 @@
 2. `notes/13-雨夜屠夫大纲.md`、`notes/14-H4与亡魂之战取材与文风样本.md` —— **已作废，仅存档**（《雨夜屠夫》不再写）。笔记 14 第一节「身体属性（取自《尤物的战争》林倩）」仍有效，现属林叁玖。
 3. `notes/15-汉宫争艳大纲.md` —— 第一个剧情世界《汉宫争艳》逐章大纲（已定稿，两场性斗已取材）。
    `start/参考-王荣何莲.txt` —— 第一个剧情世界的参考文（只作参考，严禁照抄；何贵人对王美人的两场性斗禁止取材）。
-4. `notes/11-原文1.txt.md`、`notes/12-主人公与第一世界方案.md` —— 原作笔记与改编总纲（A1–A6、H、W 各条）。
+4. `notes/11-原文1.txt.md` —— 原作笔记。`notes/12-主人公与第一世界方案.md` —— 早期改编方案，**大部分已作废**（文件头有说明），仅存档。
 5. `settings/writing-style.md`、`settings/style-profiles/fight.md` —— 文风卡（从六篇样本学来，作者已确认）。
 6. 其余 `notes/01–10` 是素材阅读笔记，需要时再查；`notes/09` 是 S1–S54 发现清单（都是参考，不是必须照搬）。
 
 ## 二、当前进度（2026-09-30）
 
-- awesome-novel 已部署（题材 20 悬疑脑洞），`.agent/status.md` 处于 **setup 阶段**。
-- 文风已定（见上）。
-- 主人公已改名**林叁玖**；第一个剧情世界骨架（G1–G13）已通过，见决策记录 2026-09-30。
-- **世界观、林叁玖、战斗系统、第一个剧情世界的设定还要和作者继续讨论**，讨论完才写进 `settings/`。不要未经讨论就写设定文件。
+- awesome-novel 已部署（题材 20 悬疑脑洞），`.agent/status.md` 已进入 **outline 阶段**。
+- 文风已定（见上）；非性斗章只跟林叁玖的视角。
+- 主人公已改名**林叁玖**；大纲 15 已定稿。
+- 设定已于 2026-09-30 写进 `settings/`（世界观、三张角色卡、时间线、伏笔台账），**作者已确认（2026-09-30）**；第 1 卷卷纲 `volumes/volume-1.md` 已由作者确认（2026-09-30）；`.agent/status.md` 进入 outline / chapter-planning（第 1 章）。以后改设定仍先列清单、经作者批准。
 
 ## 三、工作方式（最重要，全程生效）
 
@@ -57,6 +57,7 @@
 ## 六、已知问题
 
 - 本机的子 agent 默认模型曾经不可用（报 model_not_found），调用子 agent 时要显式指定 model（如 opus）。
+- volume-planner 等 agent 引用的 `skills/*.md` 不在项目里，在全局 `~/.claude/skills/awesome-novel/skills/`，派 order 时要写明路径。volume-planner 没有 `notes/` 读权限、也不能直接问作者：派单时把大纲 15 列入 inputs，写明「以大纲为准，只整理成卷纲格式，剧情缺口列问题返回」。
 - 子 agent 只在明确需要时调用；文风蒸馏的 SOP 文件 `skills/style-distill.md` 不在项目里，蒸馏师按 `.claude/knowledge/distilled-style-spec.md` 与 `style-distill/` 模板执行。
 
 ## 七、同步

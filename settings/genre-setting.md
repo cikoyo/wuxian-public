@@ -16,6 +16,8 @@ suspense-brained — 悬疑脑洞
 
 ## 节奏规则
 
+> 以下为 init.py 自动预填，**未经作者确认，不作约束**；章节节奏以作者定稿的大纲（第一卷：`notes/15-汉宫争艳大纲.md`）为准（2026-09-30）。
+
 - max_consecutive_action_chapters: 3
 - max_consecutive_daily_chapters: 1
 - beat_density_min: 2
