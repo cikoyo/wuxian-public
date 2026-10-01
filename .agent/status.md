@@ -8,10 +8,10 @@
 - **current_volume:** 1
 - **current_chapter:** 2
 - **last_archived:** vol-1-ch-1
-- **last_quality_gap:** vol-1-ch-2 草稿 writer 自报约 1950 字；novel-agent 人工复估约 1650 字（含标点），低于 2000 软下限；按「不为凑字数加内容」未补写
-- **next_task:** 第 2 章：等作者对 anti-ai A1–A14 与 reader 意见逐条 OK/NG，定稿后再派 archive-order（尚未派 updater）
+- **last_quality_gap:**
+- **next_task:** 作者人工微调第 1、2 章正文（archives/ 下定稿文件）；作者说调完后再归档第 2 章
 
 ## 当前章节进度
 
 - **章节：** vol-1-ch-2
-- **章节状态：** reviewing        # reader-review-order DONE（2026-10-01），结论：通过；archive-order 未写、未派
+- **章节状态：** reviewing        # reader 通过（reader-review-order DONE）；归档未开始，archive-order 未派
