@@ -9,9 +9,9 @@
 - **current_chapter:** 6
 - **last_archived:** vol-1-ch-5
 - **last_quality_gap:**
-- **next_task:** 第 6 章章纲
+- **next_task:** 第 6 章章纲已写（chapters/vol-1-ch-6.md），待作者确认
 
 ## 当前章节进度
 
 - **章节：** vol-1-ch-6
-- **章节状态：** 章纲编写中
+- **章节状态：** 章纲待确认
