@@ -9,9 +9,9 @@
 - **current_chapter:** 5
 - **last_archived:** vol-1-ch-4
 - **last_quality_gap:**
-- **next_task:** 第 5 章章纲（旧第 5、6 章已作废删除，资源见 notes/19）
+- **next_task:** 第 5 章章纲已写好（chapters/vol-1-ch-5.md），等作者确认
 
 ## 当前章节进度
 
 - **章节：** vol-1-ch-5
-- **章节状态：** 
+- **章节状态：** chapter-planning
