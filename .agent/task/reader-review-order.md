@@ -3,25 +3,21 @@
 status: DONE
 
 inputs:
-  - archives/vol-1-ch-3-hangong-zhengyan-3.anti-ai.md   # 正文（只评 `---` 之前；之后是 anti-ai 14 条清单、验收节、writer 新增细节，可参考）
-  - prompts/vol-1-ch-3-prompt.md                         # 同源提示词（红线、照录、底本对应表、写法要求）
-  - chapters/vol-1-ch-3.md                               # 章纲（纯性斗版，作者 2026-10-04 确认；以文末「作者答复」为准）
-  - archives/vol-1-ch-2-hangong-zhengyan-2.md            # 第 2 章定稿（衔接与口吻对照）
-  - CLAUDE.md
+  - archives/vol-1-ch-4-hangong-zhengyan-4.draft.md     # round 2 修改后稿（`---` 后有「round 2 改动」逐条对照）
+  - .agent/task/vol-1-ch-4-violations.md                 # 上轮你给出的修改点 + anti-ai 同意项
+  - archives/vol-1-ch-4-hangong-zhengyan-4.review.md     # 你上一轮的评审（原地覆盖为复审结论，保留上轮主要意见）
+  - prompts/vol-1-ch-4-prompt.md                         # 红线参照
+  - archives/vol-1-ch-3-hangong-zhengyan-3.md            # 掉阴珠段对照
+  - archives/vol-1-ch-2-hangong-zhengyan-2.md            # 掉阴珠段对照
 
 outputs:
-  - archives/vol-1-ch-3-hangong-zhengyan-3.review.md     # 结论：通过 / 不通过 + 主要意见；不通过写明回哪个环节修（prompt-crafter / writer）及具体修改点
+  - archives/vol-1-ch-4-hangong-zhengyan-4.review.md     # 复审：通过 / 不通过；只核上轮不通过项与改动是否引入新硬伤
 
 ---
 
 ## 说明
 
-- 苛刻读者验收：先沉浸阅读再逐项评价。本章比胸段按性斗写法（照金瓶梅底本抄句子只换人物，再润色）；其余按非性斗写法（学原作 1.txt：一句一段为主，吐槽不加引号，只跟林叁玖视角）。
-- 按放宽后的项目规则：情绪标签、心理说明、动作来由、比喻、总结句不作不通过理由；拟声词、口语化重复、像/仿佛/如同不当 AI 味。底本抄取的句子与骂词不作不通过理由。**不规定字数**；不建议新增章纲以外的情节。
-- 必查（红线）：照录逐字（R1a/R1b/R2/R3「掉一颗本源核心罢了，人还在。除非本源核心耗尽，那才是要命。」、T1–T5、T2b、R4/R5 与中间三句、宫女台词、「听明白了吗？」「诺。」、章末钩子单行）；禁用词（规则怪谈、守则、遗言、魔镜真言、毒、契约、时肆、诡异、诡币、何莲、王荣、叙述里的副本、本钱、厘米、公斤、岁）；视角；无系统提示；比胸隔衣、攻防流程与底本一致、不加招式；不取 L245；林叁玖观战不写情欲与羞耻；不写第 4 章过程；不交代机制。
-- 与第 2 章衔接（门外喊女医、胸口那片红、四颗）；读者能否顺着女医和起哄者的话代入「这个世界比一场怎么比」。
-- anti-ai 14 条：可逐条表态（同意/不同意/存疑一句话），不必重复原句。
-- 通过与否只看红线、流程与读感硬伤；表达层建议交作者。
-- skill 文件在 `C:\Users\sb257\.claude\skills\awesome-novel\skills\`，允许只读。禁止读 `sexfight-database/`、`start/`、`novel-samples/`、`.agent/drafts/`。不使用 Bash，不访问项目外路径。
-- 不向作者提问；问题要少，真正需作者拍板的（若有）最多 3 条写在报告末尾。
+- round 2 复审：核对修改清单 A（掉阴珠段近同句）、B（盘坐接不上、「自己」指代、边走边脱）是否解决；改动处是否引入新的读感硬伤；禁用词与红线是否仍全过。
+- 不重新全面评审，不提新表达层建议（除非是新引入的硬伤）。
+- skill 文件在 `C:\Users\sb257\.claude\skills\awesome-novel\skills\`，允许只读。禁止读 `sexfight-database/`、`start/`、`novel-samples/`、`.agent/drafts/`。不使用 Bash，不访问项目外路径。不向作者提问。
 - 完成后把本 order 的 `status: pending` 覆盖为 `status: DONE`（保留其余内容）。
