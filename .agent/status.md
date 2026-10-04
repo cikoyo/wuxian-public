@@ -1,17 +1,17 @@
 # 项目状态
 
 - **skill_version:** 4.27.0
-- **phase:** outline
-- **current_step:** chapter-planning        # volume-planning / chapter-planning / prompt-crafting / writing / anti-ai / reviewing / archiving
+- **phase:** review
+- **current_step:** reviewing        # volume-planning / chapter-planning / prompt-crafting / writing / anti-ai / reviewing / archiving
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 # last_volume_completed 与 phase: finished 由 novel-agent 写（卷完成判定），updater 不写完成位
 - **current_volume:** 1
 - **current_chapter:** 3
 - **last_archived:** vol-1-ch-2
 - **last_quality_gap:**
-- **next_task:** 第 3 章章纲，待作者开始
+- **next_task:** 第 3 章 reader 验收已通过（prompt-crafter → writer → anti-ai → reader 均 DONE）；等作者对 anti-ai/reader 意见逐条 OK/NG 并定稿后，再进归档（archiving）
 
 ## 当前章节进度
 
 - **章节：** vol-1-ch-3
-- **章节状态：**
+- **章节状态：** reviewing
