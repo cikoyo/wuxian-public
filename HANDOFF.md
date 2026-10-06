@@ -81,6 +81,7 @@
 | `settings/style-profiles/standing-rules.md` | 常驻规则卡 |
 | `settings/style-profiles/fight-examples.md` | 样本段落库（带使用登记） |
 | `notes/00-决策记录.md` | 作者决定（权威） |
+| `notes/25` | 已用素材登记（用过的行号段不再用，取材前先查） |
 | `notes/15` | 第一卷大纲；`notes/20` 胜败对话取材；`notes/21` 底本人物冲突检查；`notes/24` 以弱胜强胜因研究 |
 | `notes/13、14、17、22` | 已作废/存档 |
 | `.agent/drafts/` | 各章中间稿、润色对照表、审稿与去 AI 味意见、各类审计清单 |
