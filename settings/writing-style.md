@@ -13,7 +13,7 @@ syntax: { avg_sentence_length: 39.0, sentence_length_dist: { short_le_8: 25, med
 rhythm: { dialogue_pct: 17.4, action_pct: 35, environment_pct: 4, inner_thought_pct: 14, narration_pct: 30 }
 rhetoric: { metaphor_density_per_100: 0.3, metaphor_preference: { weapon_metal: 40, nature: 30, body: 5, abstract: 10, other: 15 }, sensory_dist: { tactile: 40, olfactory: 22, visual: 25, auditory: 10, gustatory: 3 } }
 emotion_expression: { direct_pct: 30, action_physiology_pct: 45, environment_projection_pct: 3, inner_monologue_pct: 22 }
-narrative: { perspective: third_omniscient, focal_character: "性斗章：对立双方轮流（以本场处于下风、需要翻盘的一方为主）；非性斗章：只跟晓柒玥（2026-10-01）", inner_monologue_style: direct }
+narrative: { perspective: third_omniscient, focal_character: "性斗章：对立双方轮流（以本场处于下风、需要翻盘的一方为主）；非性斗章：只跟晓柒月（2026-10-01）", inner_monologue_style: direct }
 dialogue_style: { tag_style: mixed, avg_dialogue_length: 33, interrupt_freq_per_100: 0.4, subtext_ratio: 8 }
 cohesion: { conjunction_freq_per_100: 0.9, transition_sentence_ratio: 5, paragraph_bridge_style: action }
 verb_style: { action_verb_ratio: 92.2, mental_verb_ratio: 2.0, state_verb_ratio: 5.9, strength: strong }
@@ -21,10 +21,10 @@ verb_style: { action_verb_ratio: 92.2, mental_verb_ratio: 2.0, state_verb_ratio:
 # 声音层（模板 9-13 建模规则收敛；hard_constraints 注入时逐条不删改）
 hard_constraints:
   - "正文全书不用「本钱」一词，换成身材、乳房、腰、臀、脚、阴户等具体部位词（作者 2026-10-01；卡里例句中的「本钱」是样本原文，不照搬）。"
-  - "第三人称。性斗章：镜头可以在对立双方之间来回切换，双方的内心都能进，不要锁死在一个人的视角里。非性斗章：只跟晓柒玥的视角，不进剧情人物和原住民的内心（悬疑线靠信息差，进了对方内心就泄底）。"
+  - "第三人称。性斗章：镜头可以在对立双方之间来回切换，双方的内心都能进，不要锁死在一个人的视角里。非性斗章：只跟晓柒月的视角，不进剧情人物和原住民的内心（悬疑线靠信息差，进了对方内心就泄底）。"
   - "称呼角色以全名为主，同一段里反复用名字，少用他/她代词。"
   - "台词单独成段（作者 2026-10-05 修订）：台词在前，可紧跟说话人的名字和一串动作，但这一段只放这一句台词，不把几句台词和大段叙述挤在同一段里；对骂一来一回各占一段。"
-  - "【非性斗章例外（作者 2026-10-01）：晓柒玥的吐槽照原作 1.txt，不加引号，直接写进叙述，如「……就这？」「晓柒玥哽住了。」】性斗章：内心独白用单引号‘’直接写出来，短、带感叹号或省略号，例如‘不可能，怎么会这么硬！’，后面接'XX心里想着'再接身体动作。"
+  - "【非性斗章例外（作者 2026-10-01）：晓柒月的吐槽照原作 1.txt，不加引号，直接写进叙述，如「……就这？」「晓柒月哽住了。」】性斗章：内心独白用单引号‘’直接写出来，短、带感叹号或省略号，例如‘不可能，怎么会这么硬！’，后面接'XX心里想着'再接身体动作。"
   - "骂战和挑衅要直白、说出口，不绕弯子、不写含蓄潜台词；骂词不使用任何针对国籍、民族的羞辱词。"
   - "拟声词单独成段或放在台词里（“砰！”“咚~！”“啵~”），不用'传来一声巨响'这类转述。"
   - "情绪主要落在身体反应上（脸红、夹腿、流水、发抖、咬牙），直接点名情绪的句子只做补充。"
@@ -51,8 +51,8 @@ few_shot_examples:
 > 2026-09-28 按作者确认修订：①精确数字不写（样本爱用数字的习惯不继承）；②身体细节向《间谍过家家：新》靠，句法仍按六篇平均；③只学写法，不学情敌争夫、正宫与小三等剧情母题。修订前版本见 `settings/.style-versions/writing-style.2026-09-28.pre-revise.md`。
 > 2026-09-30 按作者确认修订：罩杯字母、时长可以写，其他精确数字仍不写。修订前版本见 `settings/.style-versions/writing-style.2026-09-30.pre-numbers.md`。
 > 排除：样本开头「人设：」资料表；样本中针对国籍/民族的羞辱措辞；样本中的精确数字写法。分析过程见 `settings/style-profiles/analysis/general.md`。
-> 2026-09-30 按作者确认修订：非性斗章只跟晓柒玥的视角（性斗章仍双方切换）。
-> 2026-10-01 按作者确认修订：①视角字段补非性斗章覆盖；②上面 9 大维度的句式数值（句长、感叹句比例、段落句数）来自性斗样本，**非性斗章不按这组数值验收**，叙述照卡的写法，晓柒玥的台词和心里话按人物卡；③比喻引导词「像/仿佛/如同」混用，不刻意禁止。修订前版本见 `settings/.style-versions/writing-style.2026-10-01.pre-nonfight.md`。修订前版本见 `settings/.style-versions/writing-style.2026-09-30.pre-pov.md`。
+> 2026-09-30 按作者确认修订：非性斗章只跟晓柒月的视角（性斗章仍双方切换）。
+> 2026-10-01 按作者确认修订：①视角字段补非性斗章覆盖；②上面 9 大维度的句式数值（句长、感叹句比例、段落句数）来自性斗样本，**非性斗章不按这组数值验收**，叙述照卡的写法，晓柒月的台词和心里话按人物卡；③比喻引导词「像/仿佛/如同」混用，不刻意禁止。修订前版本见 `settings/.style-versions/writing-style.2026-10-01.pre-nonfight.md`。修订前版本见 `settings/.style-versions/writing-style.2026-09-30.pre-pov.md`。
 > 性斗场景的差异写法见 `settings/style-profiles/fight.md`。
 
 ## 叙事身份（原 role）
@@ -61,10 +61,10 @@ few_shot_examples:
 
 ## 硬约束（原 core_principles）
 
-- 第三人称。性斗章镜头在对立双方之间切换，双方内心都能进；**非性斗章只跟晓柒玥的视角**，不进剧情人物、原住民的内心（作者 2026-09-30 确认，防止悬疑线泄底）。
+- 第三人称。性斗章镜头在对立双方之间切换，双方内心都能进；**非性斗章只跟晓柒月的视角**，不进剧情人物、原住民的内心（作者 2026-09-30 确认，防止悬疑线泄底）。
 - 称呼以全名为主，少用他/她。
 - 台词与动作同段：台词在前，说话人名字 + 逗号串起的一串动作紧随其后。
-- 内心独白用单引号‘’直接写，短促带感叹。**非性斗章例外**：晓柒玥的吐槽照原作 1.txt，不加引号、直接写进叙述（作者 2026-10-01）。
+- 内心独白用单引号‘’直接写，短促带感叹。**非性斗章例外**：晓柒月的吐槽照原作 1.txt，不加引号、直接写进叙述（作者 2026-10-01）。
 - 骂战直白说出口，不写含蓄潜台词；**不使用任何针对国籍、民族的羞辱词**（作者明确排除）。
 - 拟声词（“砰！”“咚~！”“啵~”）单独成段或写进台词，不做转述。
 - 情绪优先落在身体反应上，直接点名情绪只做补充。
