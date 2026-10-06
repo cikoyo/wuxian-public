@@ -15,6 +15,7 @@
 4. `notes/11-原文1.txt.md` —— 原作笔记。`notes/12-主人公与第一世界方案.md` —— 早期改编方案，**大部分已作废**（文件头有说明），仅存档。
 5. `settings/writing-style.md`、`settings/style-profiles/fight.md` —— 文风卡（从六篇样本学来，作者已确认），管性斗章；`settings/style-profiles/nonfight.md` —— 非性斗章文风卡（从原作 1.txt 学来）。
 6. 其余 `notes/01–10` 是素材阅读笔记，需要时再查；`notes/09` 是 S1–S54 发现清单（都是参考，不是必须照搬）。
+7. `settings/style-profiles/standing-rules.md` —— 常驻规则卡，写手、润色、审稿每章必读；提示词只写本章特有内容。
 
 ## 二、当前进度（2026-10-01）
 
