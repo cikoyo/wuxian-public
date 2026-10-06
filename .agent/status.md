@@ -2,16 +2,34 @@
 
 - **skill_version:** 4.27.0
 - **phase:** draft
-- **current_step:** prompt-crafting        # volume-planning / chapter-planning / prompt-crafting / writing / anti-ai / reviewing / archiving
+- **current_step:** writing        # volume-planning / chapter-planning / prompt-crafting / writing / anti-ai / reviewing / archiving
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 # last_volume_completed 与 phase: finished 由 novel-agent 写（卷完成判定），updater 不写完成位
 - **current_volume:** 1
-- **current_chapter:** 5
-- **last_archived:** vol-1-ch-4
+- **current_chapter:** 0
+- **last_archived:** vol-1-ch-6
 - **last_quality_gap:**
-- **next_task:** 第 5 章正文
+- **next_task:** 第 9 章正文已放入 archives，待作者微调；之后写第 10 章章纲
 
 ## 当前章节进度
 
-- **章节：** vol-1-ch-5
-- **章节状态：** chapter-planning
+| 章 | 章纲 | 正文 |
+|---|---|---|
+| 0 序章 | archived（2026-10-06 定稿） | `archives/vol-1-ch-0-xuzhang.md` **已交付**（带 `[chapter:第0章 序章]`／`[newpage]`；标点已按作者口径清理） |
+| 1 | 已确认（人设修订版） | **已交付**（作者 2026-10-06 微调完，已加交付标记） |
+| 2–4 | archived | `archives/` 定稿（已加交付标记） |
+| 5–6 | archived（作者微调定稿 2026-10-05） | `archives/` 定稿（已加交付标记） |
+| 7 女官复仇战 | 已确认（2026-10-06 重写版） | **已交付**（作者 2026-10-06 微调完，已加交付标记） |
+| 8 长秋宫宴·第一颗 | 已确认（2026-10-06） | **已交付**（作者 2026-10-06 微调完，已加交付标记） |
+| 9 生死局（中） | 已确认（2026-10-06） | `archives/vol-1-ch-9-hangong-zhengyan-9.md` **待作者微调**（未加交付标记） |
+| 10 生死局（终） | 大纲已定（决战拆章） | 未写 |
+
+## 待办
+
+- **第 2–7 章人设修订**（作者 2026-10-06）
+  - **已完成**：正文/章纲/提示词全量改名（林叁玖 → 晓柒玥）；删魅魔血脉、第 6 章胜因改「她自己的技术」；旧提示词加存档说明；**第 2 章章纲整份重写**（原为规则怪谈版，与定稿正文不一致）；第 3、5、6、7 章章纲与第 2、6、7 章正文里的旧人设表述（零经验／骗子／欺诈师／冷脸）按新性格改掉。
+  - **练习线**（作者 2026-10-06）：她**本身对性斗很熟**，不熟的只是**操控这具不属于自己的身体**——这一点要在前面的失败里体现。练法从简，**只给一句**（第 6 章开场已加「找了个宫女比了两回」）。已改：第 5 章「越磨越往自己受不住的地方送」→「她清楚该怎么收、怎么躲，可这具身子不听她的」；「身子自己会的」→ 她在借机摸清这对穴受得住什么。
+  - **对话润色**（作者 2026-10-06，新规范 `settings/style-profiles/dialogue.md`）：**第 0、2、3、4、5、6、7 章都做过了**——序章落绰号＋对骂；第 2 章比对挖苦；第 3 章围观押注式起哄；第 4 章开场出身＋乳房比对对骂；第 5 章贴胸对骂、舔脚嘴硬对呛（加密一轮）、磨穴逼认输重复；第 6 章周美人三处挑衅；第 7 章女官原话回敬。第 1 章无对手戏，不动。
+  - **顺带修掉**：第 6 章正文里还留着旧设定（「烂大街的天赋／水在作怪」）与结尾吐槽，已改成「她压住节奏、专攻对方合不拢的那一处」「这具身子总算听她使唤了一回」；第 6 章章纲的 4 处同类表述同步改掉。
+  - **遗留**：第 8 章章纲还有 3 处「晓柒玥零经验」的表述（作者 2026-10-06：第 8 章先搁着）。
+- `story.md`、`status.md`、`CLAUDE.md`（「性斗女王」只作背后设定、不进正文）已同步。
