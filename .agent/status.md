@@ -6,10 +6,10 @@
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 - **last_volume_completed:** 1   # 第一卷《汉宫争艳》2026-10-07 完成（作者评 90 分）
 - **current_volume:** 2
-- **current_chapter:** 4   # 第二卷第 4 章（archives 待作者微调）
-- **last_archived:** vol-2-ch-3
+- **current_chapter:** 5   # 第二卷第 5 章（archives 待作者微调）
+- **last_archived:** vol-2-ch-4
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷第 4 章小修稿已进 archives，待作者微调后交付；下一步第 5 章。
+- **next_task:** （2026-10-08）第二卷第 5 章小修稿已进 archives，待作者微调后交付；下一步第 6 章（橄榄枝与反杀陆苏胡耀祖）。
 
 ## 第一卷章节进度（全部完成）
 
