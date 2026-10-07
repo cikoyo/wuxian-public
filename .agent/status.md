@@ -6,10 +6,10 @@
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 - **last_volume_completed:** 1   # 第一卷《汉宫争艳》2026-10-07 完成（作者评 90 分）
 - **current_volume:** 2
-- **current_chapter:** 1   # 第二卷第 1 章（未开工）
-- **last_archived:** vol-1-ch-10
+- **current_chapter:** 4   # 第二卷第 4 章（archives 待作者微调）
+- **last_archived:** vol-2-ch-3
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷第 1–3 章已交付（带标记）；下一步第 4 章（周五额度重置后）。
+- **next_task:** （2026-10-08）第二卷第 4 章小修稿已进 archives，待作者微调后交付；下一步第 5 章。
 
 ## 第一卷章节进度（全部完成）
 
