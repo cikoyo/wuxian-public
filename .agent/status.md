@@ -9,7 +9,7 @@
 - **current_chapter:** 1   # 第二卷第 1 章（未开工）
 - **last_archived:** vol-1-ch-10
 - **last_quality_gap:**
-- **next_task:** 第二卷第 1、2 章在 archives 待作者微调；下一步第 3 章（张姐性斗，取材女优大逃杀1 L143–L161）。
+- **next_task:** （2026-10-08）第二卷：第 1、2 章小修稿在 archives 待作者微调；第 3 章润色中（初稿 `.agent/drafts/vol-2-ch-3-draft.md`，提示词已定），润色后主会话直接审改入 archives；之后第 4–7 章，流程见 notes/00「第二卷不写章纲」。本周套餐额度将尽，周五 05:00 重置。
 
 ## 第一卷章节进度（全部完成）
 
