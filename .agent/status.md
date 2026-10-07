@@ -9,7 +9,7 @@
 - **current_chapter:** 1   # 第二卷第 1 章（未开工）
 - **last_archived:** vol-1-ch-10
 - **last_quality_gap:**
-- **next_task:** 第二卷卷纲草案 `volumes/volume-2.md` 待作者确认（2026-10-08）；确认后同步设定卡，开第 1 章章纲。
+- **next_task:** 第二卷第 1 章小修稿已放 `archives/vol-2-ch-1-shouling-zhiye-1.md`，待作者微调；之后第 2 章（不写章纲，直接提示词）。
 
 ## 第一卷章节进度（全部完成）
 
