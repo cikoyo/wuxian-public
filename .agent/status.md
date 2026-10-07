@@ -1,15 +1,27 @@
 # 项目状态
 
 - **skill_version:** 4.27.0
-- **phase:** outline   # 第一卷完结，第二卷待方向讨论
-- **current_step:** volume-planning   # 等作者给第二卷方向
+- **phase:** outline   # 第二卷完结，第三卷待方向讨论与规划
+- **current_step:** volume-planning   # 等作者给第三卷大方向
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
-- **last_volume_completed:** 1   # 第一卷《汉宫争艳》2026-10-07 完成（作者评 90 分）
-- **current_volume:** 2
-- **current_chapter:** 7   # 第二卷第 7 章（archives 待作者微调，卷终章）
-- **last_archived:** vol-2-ch-6
+- **last_volume_completed:** 2   # 第二卷《守灵之夜》2026-10-08 完结并精简交付
+- **current_volume:** 3
+- **current_chapter:** 1
+- **last_archived:** vol-2-ch-7
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷第 7 章（卷终章）小修稿已进 archives，待作者微调后交付；第二卷全卷即将完结收束，下一步进入第三卷《崩坏之国》方向讨论。
+- **next_task:** （2026-10-08）第二卷全卷完成精简、导出并合并入全书总合集；当前开启第三卷《崩坏之国》（《兰斯6》魔法国度）大方向讨论与卷纲规划。
+
+## 第二卷章节进度（全部完成）
+
+| 章 | 正文状态 | 终稿文件 | 精简与交付说明 |
+|---|---|---|---|
+| 1（全书 11） | archived | `archives/vol-2-ch-1-shouling-zhiye-1.md` | 已加交付标记 |
+| 2（全书 12） | archived | `archives/vol-2-ch-2-shouling-zhiye-2.md` | 已加交付标记 |
+| 3（全书 13） | archived | `archives/vol-2-ch-3-shouling-zhiye-3.md` | 张姐改独居、删围观家眷；性斗碾压；已加交付标记 |
+| 4（全书 14） | archived | `archives/vol-2-ch-4-shouling-zhiye-4.md` | 水缸砍母亲头颅留父奶二头；门外合并裴大勇自白；删传话青年；已加交付标记 |
+| 5（全书 15） | archived | `archives/vol-2-ch-5-shouling-zhiye-5.md` | 删海滩折返草屋找裴大勇；删井边八卦路人；已加交付标记 |
+| 6（全书 16） | archived | `archives/vol-2-ch-6-shouling-zhiye-6.md` | 删对鸟嘴医生近千字大汇报复述，改3句点破；已加交付标记 |
+| 7（全书 17） | archived | `archives/vol-2-ch-7-shouling-zhiye-7.md` | 三问应答、神庙青铜门开启、卷终踏入门槛载入第三卷提示；已加交付标记 |
 
 ## 第一卷章节进度（全部完成）
 
@@ -18,13 +30,7 @@
 | 0 序章 | archived | `archives/vol-1-ch-0-xuzhang.md` 已交付 |
 | 1–10 | archived（2026-10-07 统一标记） | `archives/vol-1-ch-1～10-hangong-zhengyan-*.md` 已交付（作者亲自调完终稿，均带 `[chapter:…]`／`[newpage]`） |
 
-## 第一卷完结同步（updater 2026-10-07）
-
-- 设定已按终稿同步：`settings/character-setting/he-huanghou.md`、`wang-meiren.md`、`xiao-qiyue.md`、`wu-yi.md`，`settings/world-setting.md`、`timeline.md`、`foreshadowing.md`，`settings/style-profiles/standing-rules.md`，`volumes/volume-1.md`（文件头标完结），`chapters/vol-1-ch-*.md`（status 全 archived），`notes/00-决策记录.md` 末尾「第一卷完结（2026-10-07）」。
-- 未收束伏笔见 `settings/foreshadowing.md`「未收束钩子」（白雪、魔镜、天赋点与性币、数字使者、伍宜、照片上的女人、奶奶与清海村、主神、原书男女主、神秘力量、荒地元素、阴珠恢复）。
-
-## 遗留（第二卷开工前可看）
-
-- 第 8 章章纲仍有 3 处「晓柒月零经验」旧表述（作者 2026-10-06：先搁着；正文终稿已无此问题）。
-- 卷纲、第 9–10 章章纲正文里仍有赤焰乳、魔镜再提白雪、性币 100 等写作期规划，文件头 / status 已注明以终稿为准，未逐处改写。
-- `wang-meiren.md` 备忘：第 2 章「乳房比穿越前的自己小一圈」与第 5 章「E罩杯」、大本营原主 36D 的对照对不上（只作备忘，不改正文）。
+## 导出与合集状态
+- `exports/vol-1/`：第一卷全卷及逐章 txt（已交付）。
+- `exports/vol-2/`：第二卷全卷（`第二卷-守灵之夜-全卷.txt`）及逐章 txt（`11-守灵之夜（1）.txt`～`17-守灵之夜（7）.txt`）（UTF-8 BOM, CRLF，已生成）。
+- `archives/result/穿越性斗世界之开局拥有魔镜.txt`：已将第一卷（0-10 章）与第二卷（11-17 章）完整无缝整合，空两行隔开，去除交付标记。
