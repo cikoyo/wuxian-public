@@ -19,9 +19,9 @@
 | 2（全书 12） | archived | `archives/vol-2-ch-2-shouling-zhiye-2.md` | 已加交付标记 |
 | 3（全书 13） | archived | `archives/vol-2-ch-3-shouling-zhiye-3.md` | 张姐改独居、删围观家眷；性斗碾压；已加交付标记 |
 | 4（全书 14） | archived | `archives/vol-2-ch-4-shouling-zhiye-4.md` | 水缸砍母亲头颅留父奶二头；门外合并裴大勇自白；删传话青年；已加交付标记 |
-| 5（全书 15） | archived | `archives/vol-2-ch-5-shouling-zhiye-5.md` | 删海滩折返草屋找裴大勇；删井边八卦路人；已加交付标记 |
+| 5（全书 15） | archived | `archives/vol-2-ch-5-shouling-zhiye-5.md` | 新增性斗（晓柒月 vs 牛浩天，足底踩踏榨精碾压，收缴圣水）；删折返跑与八卦路人；已加交付标记 |
 | 6（全书 16） | archived | `archives/vol-2-ch-6-shouling-zhiye-6.md` | 删对鸟嘴医生近千字大汇报复述，改3句点破；已加交付标记 |
-| 7（全书 17） | archived | `archives/vol-2-ch-7-shouling-zhiye-7.md` | 三问应答、神庙青铜门开启、卷终踏入门槛载入第三卷提示；已加交付标记 |
+| 7（全书 17） | archived | `archives/vol-2-ch-7-shouling-zhiye-7.md` | 三问通过后加试神前性斗（晓柒月 vs 现任女祭司海伦，短剑式核心正面对顶碾压）；青铜门开启踏入门槛载入第三卷提示；已加交付标记 |
 
 ## 第一卷章节进度（全部完成）
 
