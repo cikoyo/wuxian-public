@@ -9,7 +9,7 @@
 - **current_chapter:** 1   # 第二卷第 1 章（未开工）
 - **last_archived:** vol-1-ch-10
 - **last_quality_gap:**
-- **next_task:** 第二卷第 1 章小修稿已放 `archives/vol-2-ch-1-shouling-zhiye-1.md`，待作者微调；之后第 2 章（不写章纲，直接提示词）。
+- **next_task:** 第二卷第 1、2 章在 archives 待作者微调；下一步第 3 章（张姐性斗，取材女优大逃杀1 L143–L161）。
 
 ## 第一卷章节进度（全部完成）
 
