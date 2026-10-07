@@ -4,10 +4,9 @@
 - **phase:** outline   # 第一卷完结，第二卷待方向讨论
 - **current_step:** volume-planning   # 等作者给第二卷方向
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
-# last_volume_completed 与 phase: finished 由 novel-agent 写（卷完成判定），updater 不写完成位
-# 注（updater 2026-10-07）：第一卷已完结，phase / current_step / last_volume_completed 待主会话按第二卷开工状态改写（updater 不写这三项）
+- **last_volume_completed:** 1   # 第一卷《汉宫争艳》2026-10-07 完成（作者评 90 分）
 - **current_volume:** 2
-- **current_chapter:** 10
+- **current_chapter:** 1   # 第二卷第 1 章（未开工）
 - **last_archived:** vol-1-ch-10
 - **last_quality_gap:**
 - **next_task:** **第一卷完成**（2026-10-07，作者亲自调完第 0–10 章，作者评 90 分）。下一步：**第二卷方向讨论，在新对话里进行**。
