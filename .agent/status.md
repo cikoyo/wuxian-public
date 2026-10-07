@@ -6,10 +6,10 @@
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 - **last_volume_completed:** 1   # 第一卷《汉宫争艳》2026-10-07 完成（作者评 90 分）
 - **current_volume:** 2
-- **current_chapter:** 6   # 第二卷第 6 章（archives 待作者微调）
-- **last_archived:** vol-2-ch-5
+- **current_chapter:** 7   # 第二卷第 7 章（archives 待作者微调，卷终章）
+- **last_archived:** vol-2-ch-6
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷第 6 章小修稿已进 archives，待作者微调后交付；下一步第 7 章（卷终章：神庙选拔三问、踏进神庙载入第三卷《崩坏之国》）。
+- **next_task:** （2026-10-08）第二卷第 7 章（卷终章）小修稿已进 archives，待作者微调后交付；第二卷全卷即将完结收束，下一步进入第三卷《崩坏之国》方向讨论。
 
 ## 第一卷章节进度（全部完成）
 
