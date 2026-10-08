@@ -33,7 +33,7 @@
 2. `CLAUDE.md`（第一节阅读清单、第三节工作方式、第四节流水线）
 3. `notes/00-决策记录.md` —— 现行决定（按主题分七节），**以这里为准**
 4. `settings/style-profiles/standing-rules.md` —— 常驻规则卡（含第十一节累计避让表）
-5. 常驻人物卡 `settings/character-setting/`：`xiao-qiyue.md`、`wu-yi.md`、`lu-su.md`
+5. 常驻人物卡 `settings/character-setting/常驻/`：`xiao-qiyue.md`、`wu-yi.md`、`lu-su.md`；临时卡按卷放在 `settings/character-setting/卷N-卷名/`
 6. `settings/world-setting.md`、`settings/foreshadowing.md`、`settings/timeline.md`
 7. `.agent/status.md`
 8. 需要时再读：文风卡（`settings/writing-style.md`、`style-profiles/fight.md` / `nonfight.md` / `dialogue.md` / `unify.md` / `fight-examples.md`）、取材笔记（`notes/20`、`21`、`24`、`25`、`01–10`）
@@ -63,7 +63,9 @@
 | `notes/00-决策记录.md` | 作者现行决定（权威） |
 | `notes/25-已用素材登记.md` | 已用素材（取材前必查） |
 | `notes/20`、`21`、`24`；`01–10` | 胜败对话取材、底本人物冲突检查、以弱胜强研究；素材阅读笔记 |
-| `settings/` | 世界设定、伏笔、时间线、题材、常驻人物卡、文风卡（`style-profiles/`） |
+| `settings/` | 世界设定、伏笔、时间线、题材、文风卡（`style-profiles/`） |
+| `settings/character-setting/常驻/` | 常驻人物卡（晓柒月、伍宜、陆苏） |
+| `settings/character-setting/卷N-卷名/` | 各卷临时人物卡（如 `卷1-汉宫争艳/` 何皇后、王美人） |
 | `volumes/`、`chapters/`、`prompts/` | 第三卷起的卷纲、章纲、提示词（旧卷的已移入 backup） |
 | `.agent/status.md` | 进度状态 |
 | `backup/2026-10-08/` | 精简前的旧文件（按原路径，见其 `README.md`） |

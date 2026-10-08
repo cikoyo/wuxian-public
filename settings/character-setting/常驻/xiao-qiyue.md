@@ -1,6 +1,6 @@
 # 晓柒月
 
-> 常驻卡｜现行版 2026-10-08｜旧版见 `backup/2026-10-08/settings/character-setting/xiao-qiyue.md`
+> 常驻卡｜现行版 2026-10-08｜旧版见 `backup/2026-10-08/settings/character-setting/常驻/xiao-qiyue.md`
 > 依据：第一卷终稿 `exports/vol-1/`、第二卷终稿 `exports/vol-2/`、`notes/00-决策记录.md`。冲突时以正文终稿为准。
 > 性格参考 `start/主角人设.txt` 的爱莉莎（只取性格，不照抄口头禅、不夹英语；爱莉莎自述的年少经历一律不采用、不提及）。
 

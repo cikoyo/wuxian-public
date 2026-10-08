@@ -13,7 +13,7 @@
 0. `HANDOFF.md` —— 交接文件，新对话第一个读。
 1. `notes/00-决策记录.md` —— 作者全部现行决定（按主题）。**以这里为准**，其他文件与它冲突时以它为准；它与正文终稿冲突时以终稿为准。
 2. `settings/style-profiles/standing-rules.md` —— 常驻规则卡，写手、润色、审稿每章必读（含第十一节累计避让表）；提示词只写本章特有内容。
-3. 常驻人物卡 `settings/character-setting/`：`xiao-qiyue.md`（主角）、`wu-yi.md`、`lu-su.md`。剧情世界的一次性人物写临时卡，卷完结后移入 backup。
+3. 人物卡 `settings/character-setting/`：**常驻卡**在 `常驻/`（`xiao-qiyue.md` 主角、`wu-yi.md`、`lu-su.md`），每卷都可能用到；**临时卡**（只在某一卷出现的人物）放进该卷的文件夹，如 `卷1-汉宫争艳/`（何皇后、王美人），新卷新建 `卷N-卷名/`。
 4. `settings/world-setting.md`（世界规则、面板、任务机制）、`settings/foreshadowing.md`（未收束钩子）、`settings/timeline.md`、`settings/genre-setting.md`。
 5. 文风卡：`settings/writing-style.md`（主卡）、`settings/style-profiles/fight.md`（性斗）、`nonfight.md`（非性斗）、`dialogue.md`、`unify.md`（全书统一词表）、`fight-examples.md`（样本段落库，只读目录、使用登记和相关分类）。
 6. 取材用：`notes/25-已用素材登记.md`（取材前必查）、`notes/20-胜败对话取材.md`、`notes/21-底本人物冲突检查.md`、`notes/24-以弱胜强的胜因研究.md`；`notes/01–10` 是素材阅读笔记，需要时再查。

@@ -17,7 +17,6 @@
 | 原路径 | 说明 |
 |---|---|
 | `settings/character-setting/lin-sanjiu.md` | 主角旧名，已作废 |
-| `settings/character-setting/he-huanghou.md`、`wang-meiren.md` | 第一卷临时卡（人物已死、戏已收） |
 | `notes/11`、`12`–`19`、`22`、`23`、`26` | 原作笔记、雨夜屠夫、汉宫大纲、后宫流程、改造清单、取材候选、智斗细纲等第一、二卷专用或作废笔记 |
 | `settings/style-profiles/environment.md`、`group-scene.md`、`inner-mono.md`、`transition.md`、`genre-baselines/`、`analysis/` | 未填写的空模板、蒸馏分析稿 |
 | `settings/.style-versions/` | 文风卡历史版本 |
@@ -26,3 +25,5 @@
 | `AGENTS.md` | 未填写的 OpenCode 模板 |
 
 终稿（`archives/`）、导出（`exports/`）、已用素材登记（`notes/25`）都没动。
+
+> 补记（同日）：作者定人物卡分常驻卡与临时卡，第一卷临时卡 `he-huanghou.md`、`wang-meiren.md` 已从本备份移回 `settings/character-setting/卷1-汉宫争艳/`；常驻卡移到 `settings/character-setting/常驻/`。
