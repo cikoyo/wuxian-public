@@ -9,7 +9,7 @@
 - **current_chapter:** 1
 - **last_archived:** vol-2-ch-7
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷第 12–17 章按返工骨架改完（章纲 `chapters/vol-2-ch-2～7.md` 均已确认），连读稿 `.agent/drafts/vol-2-返工稿-全卷.txt`。**等作者审读**；交付时再重新导出 `exports/vol-2/` 与全书合集。
+- **next_task:** 第二卷《守灵之夜》（第11–17章）作者亲自修改终稿完成，已重新导出全卷txt及全书合集，正式交付归档。准备进入第三卷。
 
 ## 第二卷章节进度（全部完成）
 
