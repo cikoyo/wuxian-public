@@ -73,6 +73,7 @@
 | 6 小修 | 主会话直接改 | 两份意见 | 放入 `archives/` 待作者微调 |
 | 7 归档 | 主会话 | 作者调完 | 加交付标记、记 notes/00、更新 status、**更新人物状态台账（变更日志 + 各项当前状态）** |
 
+- **写手外包试行**（作者 2026-10-14）：第 3 步初稿可交给 **Antigravity（Gemini）**，它只接写正文，说明书在 `AGENTS.md`（`GEMINI.md` 指向它）；写作口径另见 `notes/27-写作口径汇总.md`。派单写进 `.agent/task/gemini-order.md`（status 改 TODO），产出 `.agent/drafts/vol-V-ch-N-gemini.md`，之后润色起照常由 Claude 接。**地盘**：Antigravity 只写自己的稿子和派单状态，其余文件只由 Claude 改。作者私人口径若有新增，同步写进 `notes/27` 或规则卡，别只记在 Claude 记忆里。
 - 互不依赖的步骤并行跑（如准备工作、审稿与去 AI 味）。
 - 不为省 token 砍步骤或少给写手、润色上下文；去 AI 味保留单独一轮。
 - 规则变了先改常驻规则卡（和原卡），再改在跑的提示词；不在提示词里另立规矩。
