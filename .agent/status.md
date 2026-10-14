@@ -1,15 +1,33 @@
 # 项目状态
 
 - **skill_version:** 4.27.0
-- **phase:** outline   # 第二卷完结，第三卷待方向讨论与规划
-- **current_step:** volume-planning   # 等作者给第三卷大方向
+- **phase:** done   # 第三卷全部交付（2026-10-12）
+- **current_step:** chapter-planning   # 卷纲边写边定
 # phase 取值：setup / outline / draft / anti-ai / review / archive / finished
 - **last_volume_completed:** 2   # 第二卷《守灵之夜》2026-10-08 完结并精简交付
 - **current_volume:** 3
 - **current_chapter:** 1
-- **last_archived:** vol-2-ch-7
+- **last_archived:** vol-3-ch-12
 - **last_quality_gap:**
-- **next_task:** （2026-10-08）第二卷已交付；设定已精简（旧文件在 `backup/2026-10-08/`）。下一步：第三卷《崩坏之国》方向讨论，等作者开口。
+- **next_task:** （2026-10-12）第四卷卷纲已确认；第 31 章章纲已确认（`chapters/vol-4-ch-1.md`），正文暂不写，等作者通知。
+
+## 第三卷章节进度
+
+| 章 | 章纲 | 正文 |
+|---|---|---|
+| 1（全书 18） | confirmed `chapters/vol-3-ch-1.md` | `archives/vol-3-ch-1-benghuai-zhiguo-1.md` 已交付（2026-10-10，带交付标记） |
+| 2（全书 19） | confirmed `chapters/vol-3-ch-2.md` | `archives/vol-3-ch-2-benghuai-zhiguo-2.md` 已交付（2026-10-10，带交付标记） |
+| 3（全书 20） | confirmed `chapters/vol-3-ch-3.md` | `archives/vol-3-ch-3-benghuai-zhiguo-3.md` 已交付（2026-10-10，带交付标记） |
+| 4（全书 21） | confirmed `chapters/vol-3-ch-4.md` | `archives/vol-3-ch-4-benghuai-zhiguo-4.md` 已交付（2026-10-11，带交付标记） |
+| 5（全书 22） | confirmed `chapters/vol-3-ch-5.md` | `archives/vol-3-ch-5-benghuai-zhiguo-5.md` 已交付（2026-10-11，带交付标记） |
+| 6（全书 23） | confirmed `chapters/vol-3-ch-6.md` | `archives/vol-3-ch-6-benghuai-zhiguo-6.md` 已交付（2026-10-11，带交付标记） |
+| 7（全书 24） | confirmed `chapters/vol-3-ch-7.md` | `archives/vol-3-ch-7-benghuai-zhiguo-7.md` 已交付（2026-10-11，带交付标记） |
+| 8（全书 25） | confirmed `chapters/vol-3-ch-8.md` | `archives/vol-3-ch-8-benghuai-zhiguo-8.md` 已交付（2026-10-11，带交付标记） |
+| 9（全书 26） | confirmed `chapters/vol-3-ch-9.md` | `archives/vol-3-ch-9-benghuai-zhiguo-9.md` 已交付（2026-10-12，带交付标记） |
+| 10（全书 27） | confirmed `chapters/vol-3-ch-10.md` | `archives/vol-3-ch-10-benghuai-zhiguo-10.md` 已交付（2026-10-12，带交付标记） |
+| 11（全书 28） | confirmed `chapters/vol-3-ch-11.md` | `archives/vol-3-ch-11-benghuai-zhiguo-11.md` 已交付（2026-10-12，带交付标记） |
+| 12（全书 29） | confirmed `chapters/vol-3-ch-12.md` | `archives/vol-3-ch-12-benghuai-zhiguo-12.md` 已交付（2026-10-12，带交付标记） |
+| 13（全书 30） | confirmed `chapters/vol-3-ch-13.md` | `archives/vol-3-ch-13-benghuai-zhiguo-13.md` 已交付（2026-10-12，带交付标记） |
 
 ## 第二卷章节进度（全部完成）
 
